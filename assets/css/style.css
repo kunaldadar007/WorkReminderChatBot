@@ -1,0 +1,59 @@
+/* assets/css/style.css */
+/* Basic custom styling on top of Bootstrap.
+   Kept simple and well-commented for viva explanation. */
+
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9f5ff);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 0.75rem;
+}
+
+.task-badge-priority {
+    font-size: 0.75rem;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.chat-window {
+    height: 400px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+}
+
+.chat-message-user {
+    text-align: right;
+}
+
+.chat-message-bot {
+    text-align: left;
+}
+
+.chat-bubble {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.chat-bubble-user {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.chat-bubble-bot {
+    background-color: #f1f3f5;
+}
+
+.notification-fallback {
+    font-size: 0.85rem;
+}
+
